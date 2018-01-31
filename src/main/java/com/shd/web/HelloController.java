@@ -13,7 +13,11 @@ import java.util.List;
  */
 @Controller
 public class HelloController {
-
+	/**
+	 * 第一次修改
+	 * @param modelMap
+	 * @return
+	 */
 	@RequestMapping("/hello")
 	public String index(ModelMap modelMap) {
 		modelMap.addAttribute("host","http://www.baidu.com");
